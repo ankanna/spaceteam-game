@@ -1,0 +1,116 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+			"$columnCount": 3
+			"$rowCount": 4
+		} ) {
+			name: "this"
+			"minimumSize": new java.awt.Dimension( 1000, 266 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "title"
+				"text": "panelTitle"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"colSpan": 3
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+				"$columnCount": 3
+				"$rowCount": 3
+			} ) {
+				name: "panel1"
+				"border": new javax.swing.border.TitledBorder( "name1" )
+				"minimumSize": new java.awt.Dimension( 240, 102 )
+				add( new FormComponent( "javax.swing.JSlider" ) {
+					name: "slider1"
+					"paintLabels": true
+					"paintTicks": true
+					"maximum": 3
+					"value": 0
+					"snapToTicks": true
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"column": 1
+					"row": 1
+					"useParentLayout": false
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 1
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+				"$columnCount": 3
+				"$rowCount": 3
+			} ) {
+				name: "panel2"
+				"border": new javax.swing.border.TitledBorder( "name2" )
+				"minimumSize": new java.awt.Dimension( 240, 102 )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "radioButton2"
+					"text": "ON/OFF"
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"column": 1
+					"row": 1
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 2
+				"row": 1
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+				"$columnCount": 3
+				"$rowCount": 3
+				"hGap": 0
+				"vGap": 0
+			} ) {
+				name: "panel3"
+				"border": new javax.swing.border.TitledBorder( "name3" )
+				"minimumSize": new java.awt.Dimension( 240, 102 )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+					"minimumSize": new java.awt.Dimension( 50, 28 )
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"row": 1
+					"colSpan": 3
+					"preferredSize": new java.awt.Dimension( 37, 0 )
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 2
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+				"$columnCount": 3
+				"$rowCount": 3
+			} ) {
+				name: "panel4"
+				"border": new javax.swing.border.TitledBorder( "name4" )
+				"minimumSize": new java.awt.Dimension( 240, 102 )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox1"
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"column": 1
+					"row": 1
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 2
+				"row": 2
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+				"$columnCount": 3
+				"$rowCount": 1
+			} ) {
+				name: "panel5"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "confirmButton"
+					"text": "confirm"
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"colSpan": 3
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 3
+				"colSpan": 3
+				"fill": 3
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 515, 300 )
+		} )
+	}
+}
