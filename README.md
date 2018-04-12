@@ -1,2 +1,2 @@
 # spaceteam-game
-Game based on "Spaceteam" game
+Game "Spaceteam" that uses RMI and Java Beans
