@@ -18,6 +18,7 @@ import java.rmi.registry.Registry;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.Integer.parseInt;
 import static java.util.Arrays.asList;
 
 /*
@@ -151,7 +152,7 @@ public class MemberClient{
                     if (game.getCaptain()
                             .getCommand()
                             .getDeviceNum() == 3) {
-                        bean.setTextFieldValue(Integer.parseInt(bean.getTextField1().getText()));
+                        bean.setTextFieldValue(parseInt(bean.getTextField1().getText()));
                     }
                 }
             } catch (RemoteException e) {
@@ -164,7 +165,7 @@ public class MemberClient{
             @Override
             public void vetoableChange(PropertyChangeEvent evt) throws PropertyVetoException {
                 if(evt.getPropertyName() == "textFieldValue"){
-                    if(Integer.parseInt(bean.getTextField1().getText()) > textFieldToolRange){
+                    if(parseInt(bean.getTextField1().getText()) > textFieldToolRange){
                         JOptionPane.showMessageDialog(new Frame(),
                                 "It is waaay too much!!",
                                 "Too much",
@@ -195,7 +196,7 @@ public class MemberClient{
                 break;
             }
             case 3: {
-                if (deviceValue == Integer.valueOf(bean.getTextField1().getText())) {
+                if (deviceValue == parseInt(bean.getTextField1().getText())) {
                     return true;
                 }
                 break;
