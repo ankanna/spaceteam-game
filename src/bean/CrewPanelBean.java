@@ -192,7 +192,7 @@ public class CrewPanelBean extends JPanel implements PropertyChangeListener, Ser
     private void initComponents() {
 
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Anna Cegla
+        // Generated using JFormDesigner Evaluation license - Anna Antończak
         title = new JLabel();
         panel1 = new JPanel();
         slider1 = new JSlider();
@@ -320,7 +320,7 @@ public class CrewPanelBean extends JPanel implements PropertyChangeListener, Ser
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Anna Cegla
+    // Generated using JFormDesigner Evaluation license - Anna Antończak
     private JLabel title;
     private JPanel panel1;
     private JSlider slider1;
